@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { AnalysisResult, FeedbackReport, GroundingSource } from "../types";
 
 export const analyzeFeedback = async (query: string): Promise<AnalysisResult> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = import.meta.env.VITE_API_KEY;
   
   const systemInstruction = `
     You are a highly advanced market analyst and sentiment engine. 
