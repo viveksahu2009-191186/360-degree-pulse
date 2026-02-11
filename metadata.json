@@ -1,0 +1,5 @@
+{
+  "name": "360° Pulse Feedback",
+  "description": "An AI-powered dashboard that aggregates public sentiment from across the web, including YouTube, Reddit, and news articles to provide a comprehensive 360-degree feedback report.",
+  "requestFramePermissions": []
+}
